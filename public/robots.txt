@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://calculadora-recisao.vercel.app/sitemap.xml

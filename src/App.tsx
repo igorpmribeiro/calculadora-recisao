@@ -575,6 +575,10 @@ function App() {
           name="keywords"
           content="calculadora rescisão, rescisão trabalhista, cálculo trabalhista, direitos trabalhistas, FGTS, férias, 13º salário"
         />
+        <meta
+          name="google-site-verification"
+          content="UYRszih-jsHyDoZ6kEYk5vRU2FPfqpAdoDQOkk8Gy_4"
+        />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
@@ -586,7 +590,10 @@ function App() {
           property="og:description"
           content="Calcule sua rescisão trabalhista de forma rápida e precisa."
         />
-        <meta property="og:url" content="https://sua-url.com" />
+        <meta
+          property="og:url"
+          content="https://calculadora-recisao.vercel.app/"
+        />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -600,9 +607,42 @@ function App() {
         />
 
         {/* Tags adicionais para SEO */}
-        <link rel="canonical" href="https://sua-url.com" />
+        <link rel="canonical" href="https://calculadora-recisao.vercel.app/" />
         <meta name="robots" content="index, follow" />
         <html lang="pt-BR" />
+
+        {/* Adicionar logo após as meta tags existentes no Helmet */}
+
+        {/* Estruturação de dados JSON-LD para Rich Snippets */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "Calculadora de Rescisão Trabalhista",
+              "description": "Ferramenta gratuita para cálculo de rescisão trabalhista",
+              "applicationCategory": "Calculadora",
+              "operatingSystem": "Web Browser",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "BRL"
+              }
+            }
+          `}
+        </script>
+
+        {/* PWA tags */}
+        <meta name="application-name" content="Calculadora de Rescisão" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta
+          name="apple-mobile-web-app-title"
+          content="Calculadora de Rescisão"
+        />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="theme-color" content="#FFFFFF" />
       </Helmet>
 
       <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">

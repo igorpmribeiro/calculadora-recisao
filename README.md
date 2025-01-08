@@ -9,3 +9,7 @@ Este projeto tem como objetivo calcular a rescisão de contrato de trabalho de a
 - Cálculo de 13º salário proporcional
 - Cálculo de multa do FGTS
 - Geração de relatório detalhado
+
+## Como usar?
+
+Acesse https://calculadora-recisao.vercel.app/ para usar a nossa calculadora.
